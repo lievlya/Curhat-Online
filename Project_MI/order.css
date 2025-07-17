@@ -1,0 +1,101 @@
+/* Umum */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right top, #ffe6f0, #e6e6ff);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(252, 175, 229, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link.active {
+  color: #e26d8f !important;
+}
+
+/* Section Title */
+h1 {
+  color: #e26d8f;
+  font-weight: 700;
+}
+
+/* Card */
+.card {
+  border: none;
+  border-radius: 16px;
+  background: rgba(255, 207, 234, 0.94);
+  backdrop-filter: blur(6px);
+}
+
+/* Form */
+label {
+  font-weight: 600;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+}
+
+/* Tombol */
+.btn-primary {
+  background-color: #e26d8f;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #c55676;
+}
+
+.btn-success {
+  background-color: #a98bd3;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #8c6bb7;
+}
+
+/* Alert */
+.alert-success {
+  background-color: #f0e8ff;
+  border-left: 5px solid #a98bd3;
+  color: #5b4371;
+}
+
+/* Footer */
+footer {
+  background: #f8f9fa;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer-custom {
+  background: linear-gradient(to right, #fde3ec, #f9d0f5);
+  color: #6c757d;
+  font-size: 0.95rem;
+  border-top: 1px solid #f3c6dc;
+}
+
+.footer-custom a {
+  color: #e26d8f;
+}
+
+.footer-custom a:hover {
+  color: #c55676;
+  text-decoration: underline;
+}

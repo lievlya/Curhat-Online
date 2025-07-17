@@ -1,0 +1,155 @@
+/* General Layout */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right top, #ffe6f0, #e6e6ff);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+/* Hero Section */
+section {
+  scroll-margin-top: 80px;
+}
+
+h1 {
+  color: #e26d8f;
+}
+
+.lead {
+  color: #5a5a5a;
+  font-size: 1.1rem;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #e26d8f;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #c55676;
+}
+
+/* Footer */
+footer {
+  background: #f8f9fa;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+/* home.css */
+.hero {
+  background: linear-gradient(to right top, #ffe6f0, #e6e6ff);
+  padding: 5rem 0 3rem;
+}
+
+.hero .container {
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero-img {
+    max-width: 300px;
+  }
+}
+
+.hero .row {
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-img-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.hero-box {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+.hero h1 {
+  color: #e26d8f;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #5a5a5a;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #e26d8f;
+  border: none;
+}
+
+.hero .btn:hover {
+  background-color: #c55676;
+}
+
+.hero-text {
+  flex: 1 1 300px;
+}
+
+.hero-img-wrapper {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 1rem;
+}
